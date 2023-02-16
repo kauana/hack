@@ -121,7 +121,7 @@ function hub_tool() {
 }
 
 # Shortcut to "git push" that handles authentication.
-# Parameters: $1..$n - arguments to "git push <repo>".
+# Parameters: $1..$n - arguments to "git push <repo>". Test linter...
 function git_push() {
   local repo_url="${REPO_UPSTREAM}"
   local git_args=$@
